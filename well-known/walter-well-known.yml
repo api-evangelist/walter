@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+host: https://www.walter.one
+note: >-
+  www.walter.one is a single-page marketing site with a catch-all route: every
+  unknown path (verified with a nonsense path) returns HTTP 200 with the homepage
+  HTML (text/html). None of the well-known discovery documents below actually
+  exist — each "200" served the homepage, not the document — so no raw files are
+  saved and no WellKnown/SecurityTxt pointers are wired. Recorded so re-runs do
+  not mistake the catch-all 200s for real documents.
+catch_all: true
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  present: false
+  served: homepage HTML (catch-all)
+- path: /.well-known/openid-configuration
+  status: 200
+  present: false
+  served: homepage HTML (catch-all)
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  present: false
+  served: homepage HTML (catch-all)
+- path: /.well-known/api-catalog
+  status: 200
+  present: false
+  served: homepage HTML (catch-all)
+- path: /.well-known/ai-plugin.json
+  status: 200
+  present: false
+  served: homepage HTML (catch-all)
+- path: /llms.txt
+  status: 200
+  present: false
+  served: homepage HTML (catch-all)

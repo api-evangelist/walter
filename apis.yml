@@ -1,7 +1,32 @@
 aid: walter
 name: Walter
-description: Walter is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Walter is a San Francisco-based Y Combinator (Spring 2026) startup building an
+  AI employee for the manufacturing back office. Founded in 2026 by Nikolas Keller
+  (CEO) and Lukas Postulka (CTO), Walter logs into the enterprise systems a company
+  already runs on — SAP, Oracle NetSuite, Microsoft Dynamics 365, Teams, Outlook and
+  Gmail — the way a new hire would, and takes over manual paperwork: reading sales
+  orders and purchase orders from emails and PDFs, capturing and validating the data,
+  cross-checking it against the ERP, ordering from suppliers and catching pricing errors
+  before they ship. It uses a purpose-built document-understanding model (rather than
+  legacy template OCR) that supports 270+ languages and reaches 90%+ accuracy after
+  minimal training, cutting an order that used to take 15 minutes down to about one.
+  Walter requires no integration project and no rip-and-replace, operating the same
+  screens the team already uses. It is an early-stage company with no public API,
+  developer program, SDKs or documentation; this profile captures its public identity
+  and security posture for the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.walter.one/public/walter_favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/walter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +36,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agent
+- Manufacturing
+- ERP
+- Automation
+- Document Processing
+- Procurement
+- Y Combinator
 apis: []
+common:
+- type: TrustCenter
+  url: security/walter-trust-center.yml
+- type: Compliance
+  url: https://www.walter.one/#compliance
+- type: DomainSecurity
+  url: security/walter-domain-security.yml
+- type: LLMsTxt
+  url: llms/walter-llms.txt
+- type: Website
+  url: https://www.walter.one
+- type: TermsOfService
+  url: https://www.walter.one/terms
+- type: PrivacyPolicy
+  url: https://www.walter.one/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/waltertechnologies/
+- type: Twitter
+  url: https://x.com/walterindustry
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
