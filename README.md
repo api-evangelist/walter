@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Walter is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Walter is a San Francisco-based Y Combinator (Spring 2026) startup building an AI employee for the manufacturing back office. Founded in 2026 by Nikolas Keller (CEO) and Lukas Postulka (CTO), Walter logs into the enterprise systems a company already runs on — SAP, Oracle NetSuite, Microsoft Dynamics 365, Teams, Outlook and Gmail — the way a new hire would, and takes over manual paperwork: reading sales orders and purchase orders from emails and PDFs, capturing and validating the data, cross-checking it against the ERP, ordering from suppliers and catching pricing errors before they ship. It uses a purpose-built document-understanding model (rather than legacy template OCR) that supports 270+ languages and reaches 90%+ accuracy after minimal training, cutting an order that used to take 15 minutes down to about one. Walter requires no integration project and no rip-and-replace, operating the same screens the team already uses. It is an early-stage company with no public API, developer program, SDKs or documentation; this profile captures its public identity and security posture for the API Evangelist network.
 
-Backed by: y-combinator
+**Areas:** Company · Artificial Intelligence · AI Agents · Manufacturing · ERP · Automation · Document Processing · Procurement · Y Combinator
+
+## Walter on APIs.io
+
+Everything profiled for Walter is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/walter/](https://apis.io/providers/walter/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Walter Domain Security](https://apis.io/security/walter/walter-domain-security/)
+- [Walter Trust Center](https://apis.io/security/walter/walter-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.walter.one)
+- [Blog](https://www.walter.one/blog/)
+- [Compliance](https://www.walter.one/#compliance)
+- [Terms of service](https://www.walter.one/terms)
+- [Privacy policy](https://www.walter.one/privacy)
+
+## API Evangelist rating
+
+**Kin Score 5.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/walter/](https://apis.io/providers/walter/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Walter: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/walter/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
